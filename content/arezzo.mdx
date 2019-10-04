@@ -4,10 +4,73 @@ description: 'Immutable, atomic CSS classes to rapidly build product'
 status: Stable
 ---
 
-## Componentes Átomos
+## Componentes átomos
 
 ### Botões
 
 ```html live
-<button class="button">Hello, world!</button>
+<button class="button" type="button">
+  Botão
+</button>
+```
+
+```html live
+<button class="button button--small" type="button">
+  Botão pequeno
+</button>
+```
+
+```html live
+<button class="button button--large" type="button">
+  Botão grande
+</button>
+```
+
+## Componentes moléculas
+
+### Item de lista de produtos
+
+```html live
+<a class="product-item" href="">
+  <img class="thumbnail" src="https://secure-static.arezzo.com.br/medias/sys_master/arezzo/h6d/hee/h00/h00/8985884819486/1025200010015U-01-BASEIMAGE-Thumbnail.jpg" width="1px" heigth="1px" layout="responsive"></img>
+  <div class="product-item__details">
+    <h3 class="title">Rasteira Gladiadora Preta</h3>
+    R$ 259.90
+  </div>
+</a>
+```
+
+### Botões de redes sociais
+
+```html live
+<section class="social-buttons">
+  <a href="#" class="button">
+    <img src="http://127.0.0.1:8081/img/icons/facebook-white.svg" alt="" />
+  </a>
+  <a href="#" class="button">
+    <img src="http://127.0.0.1:8081/img/icons/twitter-white.svg" alt="" />
+  </a>
+  <a href="#" class="button">
+      <img src="http://127.0.0.1:8081/img/icons/instagram-white.svg" alt="" />
+  </a>
+</section>
+```
+
+### Informações rápidas
+
+```html live
+<section class="fast-info-list">
+  <div class="fast-info-list__item">
+    Precisa de ajuda?
+  </div>
+  <div class="fast-info-list__item">
+    Compre na loja
+  </div>
+  <div class="fast-info-list__item fast-info-list__item--phone">
+    <span>
+      Compre pelo telefone <br />
+      <strong>(11) 2388 8220</strong>
+    </span>
+  </div>
+</section>
 ```
