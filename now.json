@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "doctocat-template",
+  "name": "jo-doctocat-template",
   "builds": [
     {
       "src": "package.json",
