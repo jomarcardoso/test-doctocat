@@ -1,5 +1,7 @@
 - title: Page 1
   url: /page-1
+- title: Arezzo
+  url: /arezzo
 - title: Example
   url: /example
   children:
