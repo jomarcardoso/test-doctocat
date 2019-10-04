@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jo Template',
-    shortName: 'JoTmp',
-    description: 'Teste do doctocat template',
+    title: 'ZZStyle',
+    shortName: 'ArzTemplate',
+    description: 'O guia de estilos Arezzo',
   },
   plugins: ['@primer/gatsby-theme-doctocat'],
 }
