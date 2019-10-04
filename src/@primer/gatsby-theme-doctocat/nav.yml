@@ -1,9 +1,11 @@
-- title: Page 1
-  url: /page-1
 - title: Arezzo
   url: /arezzo
-- title: Example
-  url: /example
+- title: Sample
+  url: /sample
+- title: Botões
+  url: /components_atoms/buttons
+- title: Componentes átomos
+  url: /components_atoms
   children:
-    - title: Page 2
-      url: /example/page-2
+    - title: Botões
+      url: /components_atoms/buttons
