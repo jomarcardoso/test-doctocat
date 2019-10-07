@@ -2,7 +2,6 @@
 title: Botões
 description: 'Immutable, atomic CSS classes to rapidly build product'
 status: Stable
-path: /components-atoms/buttons
 ---
 
 ### Botões
