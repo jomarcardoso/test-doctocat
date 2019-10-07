@@ -1,11 +1,7 @@
-- title: Arezzo
-  url: /arezzo
 - title: Sample
   url: /sample
-- title: Botões
-  url: /components_atoms/buttons
-- title: Componentes átomos
-  url: /components_atoms
+- title: Componentes atomos
+  url: /components-atoms
   children:
-    - title: Botões
-      url: /components_atoms/buttons
+    - title: Botoes
+      url: /components-atoms/buttons
